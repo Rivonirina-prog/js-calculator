@@ -9,7 +9,7 @@ const listeKeycode = touches.map(touche => touche.dataset.key);
 const ecran = document.querySelector ('.ecran');
 // Touche 6 : keycode 102
 document.addEventListener ('keydown',(e) =>{
-  const valeur = e.KeyCode.toString();
+  const valeur = e.keyCode.toString();
   calculer (valeur)
 })
 
